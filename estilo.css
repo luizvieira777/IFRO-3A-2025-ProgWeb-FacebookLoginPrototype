@@ -1,21 +1,105 @@
-html,body {
+html,
+body {
+    font-family: 'SF Pro Display', sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: #f2f4f7;
+}
 
-body{
-    background-color:#F2F4F7;
-}
-.logo{
-    margin: 10px;
-}
-.formulario{
+.logo {
     margin: 10px;
 }
 
-#Principal{
+.formulario {
+    margin: 10px;
+    background-color: #ffff;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+
+.formulario .campos {
     display: flex;
-    flex-wrap: column;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4 px rgba(0, 0, 0, 0.1);
+}
+    input {
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 330px;
+        margin: 6px 0px;
+        border-radius: 6px;
+    }
+
+
+.principal {
+    display: flex;
+    padding-bottom: 112px;
+    flex-wrap: nowrap;
+    padding-top: 72px;
+    justify-content: center;
+}
+
+.utilitarios {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
+
+.utilitarios li {
+    margin: 0 10px;
+}
+
+.paises {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 10px;
+
+}
+
+.paises li a {
+    text-decoration: none;
+    color: #8A8D91;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.paises li {
+    margin: 0 10px;
+}
+
+.rodape {
+    background-color: #ffff;
+    padding-top: 20px;
+    width: 980px;
+    ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 106px;
+}
+
+.conteudo-rdp {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-entrar {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 16px;
+    border-radius: 16px;
+    width: 365px;
+    margin: 6px 0px;
 }
